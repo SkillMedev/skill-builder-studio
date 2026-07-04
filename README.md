@@ -9,7 +9,7 @@ The authoring loop for people who build Claude Agent Skills. Reach for it when a
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/skill-builder-studio](https://skillme.dev/pack/skill-builder-studio) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/skill-builder-studio`
+- **With the skills CLI:** `npx skills add SkillMedev/skill-builder-studio`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
