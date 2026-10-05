@@ -1,16 +1,17 @@
 # Skill Builder Studio
 
-**For skill authors: take a Claude Agent Skill from blank file to A+, tested, and packed.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For skill authors: take a Claude Agent Skill from blank file to A+, tested, and packed.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-skill-builder-studio).
 
 The authoring loop for people who build Claude Agent Skills - the same toolchain Skill Me uses to hold its own catalog to a paid-quality bar. Reach for it when a skill needs to go from idea to shippable: draft a new one against the nine-part anatomy (procedure, elicitation, thresholds, worked artifact, deliverable, Do NOT, quality bar), audit an existing one to an absolute A+ with ship-ready rewrites, sharpen the description with the WHAT + WHEN + NOT trigger formula, prove the triggers fire with live subagent tests, and compose members into a pack with an install sequence and cross-links. End state is a skill (or pack) you can publish with confidence, not a to-do list.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/skill-builder-studio](https://skillme.dev/pack/skill-builder-studio) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/skill-builder-studio?utm_source=github&utm_medium=readme&utm_campaign=pack-skill-builder-studio) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add skill-creator skill-auditor skill-description-writer skill-tester skill-pack-curator --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/skill-builder-studio`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -23,4 +24,4 @@ The authoring loop for people who build Claude Agent Skills - the same toolchain
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-skill-builder-studio).
